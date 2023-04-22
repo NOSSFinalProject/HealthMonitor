@@ -268,4 +268,12 @@ public class HeartRateCalc extends Activity {
         }
         return result;
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent i = new Intent(HeartRateCalc.this, StartVitalSigns.class);
+        i.putExtra("Usr", user);
+        startActivity(i);
+        finish();
+    }
 }

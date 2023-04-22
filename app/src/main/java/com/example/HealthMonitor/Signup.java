@@ -23,6 +23,7 @@ public class Signup extends AppCompatActivity {
     public Button Log;
     public EditText ed1, ed2, ed3, ed4, ed5, ed6, ed7, ed8;
     private Toast mainToast;
+    private Toast pt;
     public Spinner GenderSpin;
     public String m1 = "Male";
     public String m2 = "Female";
@@ -33,13 +34,12 @@ public class Signup extends AppCompatActivity {
     int c, y = 0;
     int check1 = 0;
 
-    //Camera Permission
+    //Camera Storage Permission
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+        if (grantResults.length > 0  && grantResults[0] == PackageManager.PERMISSION_GRANTED ){
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-
             }
         }
     }
@@ -62,7 +62,7 @@ public class Signup extends AppCompatActivity {
 
         //Checking for camera
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, 1);
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA},1);
         }
 
         Log = findViewById(R.id.Login);

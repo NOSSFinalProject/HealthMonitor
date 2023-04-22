@@ -1,9 +1,5 @@
 <resources>
     <string name="app_name">Health Monitor</string>
-    <string-array name="Genderss">
-        <item>Male</item>
-        <item>Female</item>
-    </string-array>
     <string name="menu_sendEmail">Send Email</string>
     <string name="menu_sendSMS">Send SMS</string>
     <string name="menu_cycleCamera">Cycle Camera Views</string>
@@ -24,7 +20,10 @@
     <string name="title_activity_edit_stats">Edit Stats</string>
     <string name="title_activity_add_temperature">Add Temperature</string>
     <string name="title_activity_test_multiple_faces_detection">Detect Multiple Faces</string>
-
+    <string-array name="Genderss">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 
 
     <string-array name="spinnerPositionsArrray">

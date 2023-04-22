@@ -10,8 +10,11 @@
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/font/fonts.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_add_temperature.xml" value="0.234375" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_all_vitals_calc.xml" value="0.2203125" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_all_vitals_res.xml" value="0.2" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_authbio.xml" value="0.16302083333333334" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_blood_pressure.xml" value="0.234375" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_body_temperature.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_camera_avty.xml" value="0.1" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_facial_gestures.xml" value="0.12864583333333332" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_heart_rate_calc.xml" value="0.234375" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_heart_rate_res.xml" value="0.20625" />
@@ -20,15 +23,20 @@
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_loginn.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_pupil_dilation.xml" value="0.12864583333333332" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_pupil_dilation3.xml" value="0.16302083333333334" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_sp_o2_calc.xml" value="0.234375" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_sp_o2_res.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_spo22.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_start_vital_signs.xml" value="0.1" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_temp_calc.xml" value="0.15458937198067632" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_temperature_calc.xml" value="0.2203125" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/activity_user_stats_settings.xml" value="0.16302083333333334" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/card_item.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/layout/file_paths.xml" value="0.1" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/menu/activity_common.xml" value="0.234375" />
         <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/Chitra/AndroidStudioProjects/prac2/app/src/main/res/xml/file_paths.xml" value="0.1" />
       </map>
     </option>
   </component>

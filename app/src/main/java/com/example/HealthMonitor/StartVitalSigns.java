@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import com.example.HealthMonitor.net.simplyadvanced.vitalsigns.bloodpressure.BloodPressureActivity;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class StartVitalSigns extends AppCompatActivity {
@@ -41,7 +39,7 @@ public class StartVitalSigns extends AppCompatActivity {
                 break;
 
                 case 2: {
-                    Intent i = new Intent(v.getContext(), BloodPressureActivity.class);
+                    Intent i = new Intent(v.getContext(), TempCalc.class);
                     startActivity(i);
                     finish();
                 }

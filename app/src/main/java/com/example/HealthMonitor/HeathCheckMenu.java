@@ -39,7 +39,7 @@ public class HeathCheckMenu extends AppCompatActivity {
                     finish();
                 }
                 if(position==2){
-                    Intent intent = new Intent(getApplicationContext(),StartVitalSigns.class);
+                    Intent intent = new Intent(getApplicationContext(),TempCalc.class);
                     intent.putExtra("Page",position);
                     startActivity(intent);
                     finish();

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@mipmap/bg4"
+    tools:context=".TempCalc">
+    <TextView
+        android:id="@+id/temphead"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="TEMPERATURE MEASUREMENT"
+        android:layout_marginTop="50dp"
+        android:textFontWeight="20"
+        android:fontFamily="@font/abhaya_libre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="182dp"
+        android:layout_height="237dp"
+        android:layout_below="@+id/temphead"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:rotation="270"
+        android:scaleType="centerInside"></ImageView>
+    <EditText
+        android:layout_below="@+id/imageView"
+        android:id="@+id/imgPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Image Path Appears Here" />
+
+    <Button
+
+        android:id="@+id/imgbtncxn"
+        android:layout_margin="10dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgPath"
+        android:layout_marginTop="8dp"
+        android:background="#FF007F"
+        android:textColor="@color/white"
+        android:text="Select Image" />
+
+    <!--<TextView
+        android:id="@+id/tb1temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCaptureImage"
+        android:layout_marginTop="18dp"
+        android:layout_weight="1"
+        android:text="IPv4 Address" />
+
+    <EditText
+        android:id="@+id/IPAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb1temp"
+        android:layout_marginTop="37dp"
+        android:layout_weight="4"
+        android:text="192.168.0.173" />
+
+    <TextView
+        android:id="@+id/tb2temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb1temp"
+        android:layout_marginTop="102dp"
+        android:layout_weight="1"
+        android:text="Port Number" />
+
+    <EditText
+        android:id="@+id/portNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb2temp"
+        android:layout_marginTop="33dp"
+        android:layout_weight="4"
+        android:text="5000" />-->
+
+    <Button
+        android:id="@+id/btnCaptureImage"
+        android:layout_margin="10dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgPath"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/imgbtncxn"
+        android:background="#FF007F"
+        android:text="Capture Image"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/connectbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCaptureImage"
+        android:layout_marginTop="23dp"
+        android:background="#FF007F"
+        android:text="DETECT TEMPERATURE"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/responseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connectbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Message from the Server ..."
+        android:textSize="30dp" />
+
+</RelativeLayout>

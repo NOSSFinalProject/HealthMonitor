@@ -74,7 +74,7 @@ public class HMLogin extends AppCompatActivity {
                         loginPrefsEditor.commit();
                     }
 
-                    Intent i = new Intent(v.getContext(), HeathCheckMenu.class);
+                    Intent i = new Intent(v.getContext(), authbio.class);
                     i.putExtra("Usr", usrStr);
                     startActivity(i);
                     finish();
